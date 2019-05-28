@@ -23,4 +23,8 @@ class DetailActivity : AppCompatActivity() {
             finish()
         }
     }
+
+    companion object {
+        val EXTRA_PERSON = "person"
+    }
 }
